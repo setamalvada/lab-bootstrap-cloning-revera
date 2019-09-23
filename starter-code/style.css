@@ -1,0 +1,113 @@
+        body p {
+            font-size: 10px;
+        }
+        
+        body a {
+            font-size: 10px;
+        }
+        
+        body h6 {
+            font-size: 12px;
+        }
+        
+        .pepe p,
+        a {
+            color: grey;
+        }
+        
+        #final {
+            background-color: rgb(39, 37, 37);
+        }
+
+        .red-container {
+         /* height: 10rem;*/
+          position: absolute;
+          top:525px;
+          z-index: 10;
+          color:#ffffff;
+          background-color:rgb(209, 61, 61);
+        }
+        
+        #final a,
+        p,
+        h3 {
+            color: white;
+            font-size: 10px;
+        }
+        
+        .footerh3 {
+            font-size: 12px;
+        }
+        
+        #footer {
+            padding: 40px 0px 40px 0px;
+            border-top: 4px solid rgb(209, 61, 61)
+        }
+        
+        .footera {
+            color: grey;
+            font-size: 10px;
+        }
+        
+        li {
+            list-style-type: none;
+            border-bottom: dotted 1px #6c757d;
+        }
+        
+        nav li {
+            list-style-type: none;
+            border-bottom: dotted 0px #6c757d;
+        }
+        
+        .sub-line {
+            padding-bottom: 1rem;
+            border-bottom: solid 1px #6c757d;
+        }
+        
+        .space-between {
+            padding-top: 1rem;
+        }
+        
+        ul {
+            padding-left: 0rem;
+        }
+
+        .carousel-caption {
+width:70%;
+z-index:10;
+color:#fff;
+text-align:center;
+top:50%;
+left:80%;
+bottom:auto;
+-webkit-transform:translate(0, -50%);
+-ms-transform:translate(0, -50%);
+transform:translate(0, -50%);
+}
+
+.myButton {
+	background-color:transparent;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 8px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.circle-icon {
+    margin: 30px 30px; 
+    background: transparent;
+    padding:15px;
+    border-radius: 50%;
+    border:solid 3px white;
+}
